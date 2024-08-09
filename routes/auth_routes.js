@@ -64,7 +64,7 @@ router.post("/login", async (req, res) => {
 
     res.status(201).json({ message: "logged in", userwithoutpassword });
   } catch (err) {
-    res.status(500).json({ message: "error occured", err });
+    res.status(500).json({ message: "err or occured", err });
   }
 });
 // router.post("/uploadImg", async (req, res) => {
